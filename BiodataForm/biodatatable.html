@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Biodata</title>
+</head>
+<body>
+    <header>
+        <h2>Daftar Cihuy Academy</h2>
+    </header>
+    <form>
+        <table cellpadding="5">
+            <tr>
+                <td>Nama</td>
+                <td>:</td>
+                <td><input type="text" id="nname"></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>:</td>
+                <td><input type="email" id="memail"></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td>:</td>
+                <td><input type="password" id="ppassword"></td>
+            </tr>
+            <tr>
+                <td>Tempat, Tanggal Lahir</td>
+                <td>:</td>
+                <td>
+                    <input type="text" placeholder="Tempat">
+                    <input type="date" id="ddate">
+                </td>
+            </tr>
+            <tr>
+                <td>Alamat</td>
+                <td>:</td>
+                <td><textarea name="alamat" id="alamat"></textarea></td>
+            </tr>
+            <tr>
+                <td>Agama</td>
+                <td>:</td>
+                <td>
+                    <select name="agama" id="agama">
+                        <option value="islam">Islam</option>
+                        <option value="kristen">Kristen</option>
+                        <option value="hindu">Hindu</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td>:</td>
+                <td>
+                    <input type="radio" name="gender" value="pria"> Pria
+                    <input type="radio" name="gender" value="wanita"> Wanita
+                </td>
+            </tr>
+            <tr>
+                <td>Hobi</td>
+                <td>:</td>
+                <td>
+                    <input type="checkbox" name="hobi" value="membaca"> Membaca
+                    <input type="checkbox" name="hobi" value="menulis"> Menulis
+                    <input type="checkbox" name="hobi" value="lari"> Lari
+                </td>
+            </tr>
+            <tr>
+				<td>
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
