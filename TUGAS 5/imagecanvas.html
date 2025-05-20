@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Image & Canvas</title>
+    <title>Image & Canvas</title>
 </head>
 <body>
-	<h3>Image</h3>
-	<img src="Greek_uc_sigma.svg.png" alt="Sigma Icon" style="width:100px;height:100px;">
-	
-	<h4>Canvas</h4>
-	<canvas id="myCanvas" width="200" height="100" style="border:1px solid black;">
-	
-	
-	<script>
-		var c = document.getElementById("myCanvas");
-		var ctx = c.getContext("2d");
-		ctx.moveTo(0,0);
-		ctx.lineTo(200,100);
-		ctx.stroke();
-	</script>
+
+<h2>Image</h2>
+<img src="Greek_uc_sigma.svg.png" alt="Sigma Icon" width="100" height="100">
+
+<h2>Canvas</h2>
+<canvas id="myCanvas" width="200" height="100"></canvas>
+
+<script>
+    var c = document.getElementById("myCanvas");
+    var ctx = c.getContext("2d");
+    ctx.moveTo(0, 0);
+    ctx.lineTo(200, 100);
+    ctx.stroke();
+</script>
+
 </body>
 </html>
