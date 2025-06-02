@@ -1,0 +1,16 @@
+body {
+  background-color: #2b9cc57b;
+}
+
+table {
+  width: 60%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+table th, table td {
+  border: 1px solid #000000;
+  padding: 5px;
+  text-align: center;
+}/*# sourceMappingURL=main.css.map */
