@@ -1,0 +1,32 @@
+body {
+  margin: 20px;
+  background-color: #02021a;
+}
+header {
+  background-color: blanchedalmond;
+  padding: 5px;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.section {
+  float: left;
+  width: 30%;
+  padding: 15px;
+}
+h2,
+p {
+  color: white;
+}
+.row {
+  content: "";
+  display: table;
+}
+footer {
+  background-color: blanchedalmond;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 10px;
+}
