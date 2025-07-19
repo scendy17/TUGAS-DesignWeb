@@ -1,0 +1,125 @@
+#normal {
+  width: 300px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+}
+
+#matrix {
+  width: 300px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+  transform: matrix(1, -0.3, 0, 1, 0, 0);
+}
+
+#matrix2 {
+  width: 300px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+  transform: matrix(1, 0, 0.5, 1, 150, 0);
+}
+
+#trans1 {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+  transition: width 2s;
+  transition-timing-function: linear;
+}
+
+#trans1:hover {
+  width: 300px;
+}
+
+#trans2 {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+  transition: width 2s;
+  transition-timing-function: ease;
+}
+
+#trans2:hover {
+  width: 300px;
+}
+
+#trans3 {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+  transition: width 2s;
+  transition-timing-function: ease-in;
+}
+
+#trans3:hover {
+  width: 300px;
+}
+
+#trans4 {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+  transition: width 2s;
+  transition-timing-function: ease-out;
+}
+
+#trans4:hover {
+  width: 300px;
+}
+
+#trans5 {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+  transition: width 2s;
+  transition-timing-function: ease-in-out;
+}
+
+#trans5:hover {
+  width: 300px;
+}
+
+#animasi {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+  position: relative;
+  animation-name: animasi;
+  animation-duration: 5s;
+}
+
+@keyframes animasi {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: yellow;
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    background-color: blue;
+    left: 200px;
+    top: 200px;
+  }
+  75% {
+    background-color: green;
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+}
