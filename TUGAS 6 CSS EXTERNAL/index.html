@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biodata</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Form Biodata</h1>
+    </header>
+    <main>
+      <form>
+        <div class="form-group">
+          <label for="nama">Nama:</label><br />
+          <input type="text" id="nama" name="nama" />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email:</label><br />
+          <input type="email" id="email" name="email" />
+        </div>
+
+        <div class="form-group">
+          <label for="pw">Password:</label><br />
+          <input type="password" id="pw" name="pw" />
+        </div>
+
+        <div class="form-group">
+          <label for="alamat">Alamat:</label><br />
+          <textarea id="alamat" name="alamat"></textarea>
+        </div>
+
+        <div class="form-group">
+          <label for="agama">Agama:</label><br />
+          <select id="agama" name="agama">
+            <option value="Islam">Islam</option>
+            <option value="Kristen">Kristen</option>
+            <option value="Hindu">Hindu</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>Hobi:</label><br />
+          <input type="checkbox" name="hobi" value="Baca" />Baca
+          <input type="checkbox" name="hobi" value="Menulis" />Menulis
+          <input type="checkbox" name="hobi" value="Ngoding" />Ngoding
+        </div>
+
+        <div class="form-group">
+          <label>Jenis Kelamin:</label><br />
+          <input type="radio" name="jenisk" value="Laki-laki" />Laki-laki
+          <input type="radio" name="jenisk" value="Perempuan" />Perempuan
+        </div>
+
+        <div class="form-group">
+          <label for="tanggal">Tanggal:</label><br />
+          <input type="date" id="tanggal" name="tanggal" />
+        </div>
+
+        <div class="form-group">
+          <input type="submit" value="Submit" />
+          <input type="reset" value="Reset" />
+        </div>
+      </form>
+    </main>
+
+    <footer>
+      <p>
+        Scendy17<br />
+        <a href="mailto:Scendy17@gmail.com">Scendy17@gmail.com</a>
+      </p>
+    </footer>
+  </body>
+</html>
