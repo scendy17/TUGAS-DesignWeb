@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Kennn - Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">Kennn</div>
+        <div class="hamburger">
+          <i class="ph ph-list"></i>
+        </div>
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#tentang">About</a></li>
+          <li><a href="#keahlian">Skills</a></li>
+          <li><a href="#proyek">Projects</a></li>
+          <li><a href="#kontak">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="hero" class="hero">
+        <div class="hero-text">
+          <p>Hello</p>
+          <div class="hero-img-mobile">
+            <img src="image/scendyatas.png" alt="Scendy Profile Photo" />
+          </div>
+          <h1>I'm Scendy</h1>
+          <p>
+            I am a Computer Science student at STIKOM PGRI Banyuwangi, with a
+            strong interest in web development.
+          </p>
+          <div class="sosmed">
+            <a href="https://www.instagram.com/scendyy_/" target="_blank"
+              ><img src="image/ig.png" alt="Instagram"
+            /></a>
+            <a href="https://github.com/scendy17" target="_blank"
+              ><img src="image/github.png" alt="GitHub"
+            /></a>
+            <a href="https://discord.gg/UBKSHNyT" target="_blank">
+              <img src="image/dc.png" alt="Discord"
+            /></a>
+          </div>
+        </div>
+        <div class="hero-img-desktop">
+          <img src="image/scendyatas.png" alt="Scendy Profile Photo" />
+        </div>
+      </section>
+
+      <section id="tentang" class="about">
+        <div class="about-img">
+          <img src="image/scendybawah.png" alt="Scendy Profile Photo" />
+        </div>
+        <div class="about-text">
+          <h2>About Me</h2>
+          <p>
+            Hi, I'm Scendy. I am a Computer Science student at STIKOM PGRI
+            Banyuwangi. I'm passionate about web development, software
+            engineering, and cloud-based solutions. I enjoy learning new
+            technologies and building creative digital projects that solve
+            real-world problems.
+          </p>
+        </div>
+      </section>
+
+      <section id="keahlian" class="skills">
+        <h2>Skills</h2>
+        <div class="skills-list">
+          <img src="image/py.png" alt="Python" />
+          <img src="image/html.png" alt="HTML" />
+          <img src="image/css.png" alt="CSS" />
+          <img src="image/figma.png" alt="Figma" />
+        </div>
+      </section>
+
+      <section id="proyek" class="projects">
+        <h2>Projects</h2>
+        <div class="projects-list">
+          <div class="project-card">
+            <img src="image/project.png" alt="MAPASWANGI Project" />
+            <h3>MAPASWANGI</h3>
+            <p>
+              A UI/UX design project for a website that maps and explores
+              camping gear interactively.
+            </p>
+            <a href="mapaswangi-project.html" class="btn">Check</a>
+          </div>
+          <div class="project-card">
+            <img src="image/homesalon.jpg" alt="Dinda Salon Project" />
+            <h3>DINDA SALON</h3>
+            <p>
+              Website development project for a beauty salon that offers facial
+              treatments and hair care.
+            </p>
+            <a href="dinda-project.html" class="btn">Check</a>
+          </div>
+          <div class="project-card">
+            <img src="image/hometrip.png" alt="Trip Banyuwangi Project" />
+            <h3>TRIP Banyuwangi</h3>
+            <p>
+              A travel website project showcasing tour packages and destination
+              guides in Banyuwangi, East Java.
+            </p>
+            <a href="trip-project.html" class="btn">Check</a>
+          </div>
+          <div class="project-card">
+            <img src="image/rentalhome.png" alt="Banyuwangi Trans Project" />
+            <h3>Banyuwangi Trans</h3>
+            <p>
+              A travel website project showcasing transportation services in
+              Banyuwangi.
+            </p>
+            <a href="banyuwangi-trans.html" class="btn">Check</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="kontak" class="contact">
+        <h2>Contact</h2>
+        <form action="#" method="POST">
+          <input type="text" name="name" placeholder="Name" required />
+          <input type="email" name="email" placeholder="Email" required />
+          <textarea name="message" placeholder="Message" required></textarea>
+          <button type="submit" class="btn">Send</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>Kennn - Portfolio</p>
+    </footer>
+    <script>
+      const hamburger = document.querySelector(".hamburger");
+      const menuList = document.querySelector("nav ul");
+      hamburger.addEventListener("click", () => {
+        menuList.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <title>Dinda Salon - Project Details</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">Kennn</div>
+        <div class="hamburger"><i class="ph ph-list"></i></div>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#tentang">About</a></li>
+          <li><a href="index.html#keahlian">Skills</a></li>
+          <li><a href="index.html#proyek">Projects</a></li>
+          <li><a href="index.html#kontak">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="project-details">
+        <div class="project-header">
+          <div class="project-hero-img">
+            <img src="image/homesalon.jpg" alt="Dinda Salon Project" />
+          </div>
+          <div class="project-info">
+            <h1>DINDA SALON</h1>
+            <p class="project-subtitle">Website Design Salon</p>
+            <div class="project-tags">
+              <span class="tag">Web Design</span>
+              <span class="tag">Frontend</span>
+              <span class="tag">Styling</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-content">
+          <div class="project-section">
+            <h2>Project Overview</h2>
+            <p>
+              DINDA SALON is a website development project for a modern beauty
+              salon that offers facial, hair, and makeup services. The site was
+              built to provide an elegant and user-friendly experience,
+              showcasing the salon's services and helping customers find the
+              right treatments with ease.
+            </p>
+          </div>
+
+          <div class="project-section">
+            <h2>Key Features</h2>
+            <ul class="feature-list">
+              <li>Elegant and responsive design for all screen sizes</li>
+              <li>Service catalog with detailed descriptions and pricing</li>
+              <li>Clean navigation for smooth user experience</li>
+              <li>Contact and location section for easy access</li>
+            </ul>
+          </div>
+
+          <div class="project-section">
+            <h2>Project Gallery</h2>
+            <div class="project-gallery">
+              <div class="gallery-item">
+                <img src="image/treatment.jpg" alt="Dinda Salon Treatment" />
+                <p>Treatment</p>
+              </div>
+              <div class="gallery-item">
+                <img src="image/homesalon.jpg" alt="Dinda Salon Home Page" />
+                <p>Home Page</p>
+              </div>
+              <div class="gallery-item">
+                <img src="image/kontak.jpg" alt="Dinda Salon Contact" />
+                <p>Contact</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-actions">
+            <a href="index.html#proyek" class="btn">Back to Projects</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Kennn - Portfolio</p>
+    </footer>
+    <script>
+      const hamburger = document.querySelector(".hamburger");
+      const menuList = document.querySelector("nav ul");
+      hamburger.addEventListener("click", () => {
+        menuList.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>
